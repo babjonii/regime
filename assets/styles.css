@@ -1,0 +1,505 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.bg7070 {
+    background-color: #707070;
+}
+
+#footerLogo {
+    max-width: 200px;
+}
+
+#footerLabel {
+    font-size: 18px
+}
+
+@media print {
+    .noprint {
+        display: none;
+    }
+}
+
+.brL10 {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.brR10 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.pageNames {
+    margin-right: 10px;
+    border-right: 1px solid #F00;
+    padding-right: 10px;
+}
+
+#navHeader li:last-child a {
+    border-right: none;
+    margin-right: 0;
+}
+
+.pageNames:hover {
+    color: #F0F;
+}
+
+.logoIcon {
+    min-width: 40px;
+    max-width: 200px
+}
+
+.header {
+    border-top: 10px solid #B6302F;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1.5em;
+}
+
+.headerRight {
+    width: auto;
+    min-height: 120px;
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.titleSection {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3em;
+}
+
+.titleSection,
+#financing {
+    background-image: url('images/financing.jpg');
+}
+
+.homeSect {
+    background-image: url('images/front.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 64vh;
+    justify-content: space-between;
+}
+
+.homeBottomIcons {
+    margin-right: 3em;
+    color: #fff;
+}
+
+.titleSection,
+#renovations {
+    background-image: url('images/renovations.jpg');
+}
+
+.titleSection,
+#specialProjects {
+    background-image: url('images/plan.jpg');
+}
+
+.titleSection,
+#buildingProcess {
+    background-image: url('images/process.png');
+}
+
+.financingMainSection {
+    border-top: 20px solid #707070 !important;
+    border-bottom: 20px solid #707070;
+}
+
+.financingMainSection,
+#specialProjects {
+    border-top: 0;
+}
+
+#customizePlansBG {
+    background-image: url('https://via.placeholder.com/920x230.png');
+    background-repeat: no-repeat;
+}
+
+.buttonRibbon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1em;
+    flex-wrap: wrap;
+    background-color: #707070;
+}
+
+.ribbonButton {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    padding: 0.5em 2em;
+}
+
+.ribbonButton:active,
+.ribbonButton:hover {
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 0.5em 2em;
+}
+
+
+.financingMainSection1 {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.sectionDark {
+    background-color: #707070;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.financingMainSection2 {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+
+.paleBackground {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+
+.financingMainSection2,
+#largeText {
+    font-size: 1.6rem;
+    color: #707070;
+}
+
+.financingMainSection2,
+#farm,
+#kitchen {
+    background-color: #707070;
+}
+
+.financingMainSection3 {
+    background-color: #FFFFFF;
+    padding: 3em
+}
+
+.financeSectionImage {
+    max-height: 450px;
+    /* max-width: 300px; */
+}
+
+#sectionImage {
+    padding: 3em;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px
+}
+
+.footerMain {
+    min-height: 12vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #B2B0B1;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footerDivider {
+    width: 1px;
+    background-color: #000
+}
+
+.font12Fade {
+    font-size: 12px;
+    color: #565656;
+    margin: 0 0 10px 0;
+}
+
+
+.font12Blue {
+    font-size: 12px;
+    color: #0964AD;
+}
+
+.heightFitcontent {
+    height: fit-content;
+}
+
+.imgRounded {
+    border-radius: 50px;
+    overflow: hidden;
+    padding-left: 10px;
+    width: 320px;
+    height: 220px;
+}
+
+.plansImageContainer {
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2em !important;
+}
+
+.whiteElevation {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.rowBtn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rowAlignCenter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.whiteElevationS {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.lineSeparator {
+    border: 1px solid rgba(90, 85, 85, 0.14);
+    margin: 10px 0;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+#dropDown:hover {
+    background-color: transparent;
+    opacity: 100%;
+}
+
+.table td {
+    text-align: left;
+}
+
+.table th {
+    font-weight: 500;
+}
+
+.table thead {
+    text-align: left;
+}
+
+.table tbody tr {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+    border-bottom: 4px solid rgba(0, 0, 0, 0.25);
+}
+
+.table tbody tr:focus {
+    background: rgba(204, 204, 204, 0.47);
+}
+
+td,
+th {
+    padding: 5px;
+    text-align: left;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 25px;
+    background-image: url(images/dropdown.png);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+    background-size: 10px;
+    font-size: 14px;
+
+}
+
+input,
+textarea {
+    font-size: 1.5rem;
+    padding: 0.25em;
+    border-radius: 5em;
+    margin: 0.25em 0
+}
+
+input,
+textarea {
+    font-size: 1.5rem;
+    padding: 0.25em 1.5em;
+    border-radius: 1em;
+    margin: 0.25em 0
+}
+
+label {
+    font-size: 1.5em !important;
+}
+
+.font2em {
+    font-size: 1.5em;
+}
+
+.font1em {
+    font-size: 1.125em;
+}
+
+.fontWt {
+    font-weight: 500;
+}
+
+select:focus {
+    outline: none;
+}
+
+label {
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#contact {
+    padding: 5em 10em
+}
+
+p {
+    margin-bottom: 0.125em;
+}
+
+.h4 {
+    margin-bottom: 0.0025em;
+}
+
+.features {
+    font-size: 1.125rem;
+    padding: 1em 1.5em;
+    border-radius: 50px;
+    margin-top: 0.5em;
+    font-weight: 500;
+}
+
+.features:hover {
+    background: #f8edeb !important;
+    color: #006d77 !important;
+}
+
+.fill-screen {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    scroll-behavior: auto;
+    overflow: scroll;
+}
+
+a.primary-color:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.yellow-text:hover {
+    color: #fff;
+}
+
+a:active {
+    color: #000 !important;
+}
+
+iframe {
+    width: 100%
+}
+
+@media screen and (min-width: 1368px) {
+    .margin-top-70 {
+        margin-top: 100px !important;
+    }
+}
+
+@media screen and (min-height: 768px) {
+    .min-height {
+        min-height: 600px;
+    }
+}
+
+@media screen and (min-height: 1200px) {
+    .min-height {
+        min-height: 1200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .financeSectionImage {
+        max-height: 450px;
+        max-width: 300px;
+    }
+
+    #sectionImage {
+        padding: 1.5em 3em;
+    }
+
+    .ribbonButton {
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        border-radius: 5px;
+        padding: 0.5em 2em;
+        margin-top: 0.25em;
+    }
+
+    .imgRounded {
+        border-radius: 50px;
+        overflow: hidden;
+        padding-left: 10px;
+        width: 140px;
+        height: 120px;
+    }
+
+
+}
